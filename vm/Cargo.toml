@@ -1,0 +1,12 @@
+[package]
+name = "synacor_vm"
+version = "0.1.0"
+authors = ["kjempelodott <kjempelodott@gmail.com>"]
+
+[dependencies]
+bincode = "0.6.1"
+rustc-serialize = "0.3.22"
+
+[dependencies.nix]
+version = "0.7.0"
+features = ["signalfd"]
